@@ -3,7 +3,7 @@ name: implement
 description: "Feature and code implementation with intelligent persona activation and MCP integration"
 category: workflow
 complexity: standard
-mcp-servers: [context7, sequential, magic, playwright]
+mcp-servers: [deepwiki, context7, sequential, magic, playwright]
 personas: [architect, frontend, backend, security, qa-specialist]
 ---
 
@@ -37,6 +37,7 @@ Key behaviors:
 - Comprehensive testing integration with Playwright for validation
 
 ## MCP Integration
+- **DeepWiki MCP**: Critical thinking on opensource frameworks
 - **Context7 MCP**: Framework patterns and official documentation for React, Vue, Angular, Express
 - **Magic MCP**: Auto-activated for UI component generation and design system integration
 - **Sequential MCP**: Complex multi-step analysis and implementation planning

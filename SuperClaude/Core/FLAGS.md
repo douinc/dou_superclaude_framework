@@ -26,8 +26,12 @@ Behavioral flags for Claude Code to enable specific execution modes and tool sel
 
 ## MCP Server Flags
 
+**--dw / --deepwiki**
+- Trigger: Framework usage questions, how to use the library well
+- Behavior: Enable DeepWiki for critical and comprehensive ingestion of open source libraries
+
 **--c7 / --context7**
-- Trigger: Library imports, framework questions, official documentation needs
+- Trigger: Library imports, official documentation needs
 - Behavior: Enable Context7 for curated documentation lookup and pattern guidance
 
 **--seq / --sequential**

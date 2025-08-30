@@ -3,7 +3,7 @@ name: brainstorm
 description: "Interactive requirements discovery through Socratic dialogue and systematic exploration"
 category: orchestration
 complexity: advanced
-mcp-servers: [sequential, context7, magic, playwright, morphllm, serena]
+mcp-servers: [deepwiki, sequential, context7, magic, playwright, morphllm, serena]
 personas: [architect, analyzer, frontend, backend, security, devops, project-manager]
 ---
 
@@ -37,6 +37,7 @@ Key behaviors:
 - Cross-session persistence with comprehensive requirements discovery documentation
 
 ## MCP Integration
+- **DeepWiki MCP**: Critical thinking on opensource frameworks
 - **Sequential MCP**: Complex multi-step reasoning for systematic exploration and validation
 - **Context7 MCP**: Framework-specific feasibility assessment and pattern analysis
 - **Magic MCP**: UI/UX feasibility and design system integration analysis

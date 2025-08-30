@@ -3,7 +3,7 @@ name: improve
 description: "Apply systematic improvements to code quality, performance, and maintainability"
 category: workflow
 complexity: standard
-mcp-servers: [sequential, context7]
+mcp-servers: [deepwiki, sequential, context7]
 personas: [architect, performance, quality, security]
 ---
 
@@ -34,6 +34,7 @@ Key behaviors:
 - Safe refactoring with comprehensive validation and rollback capabilities
 
 ## MCP Integration
+- **DeepWiki MCP**: Critical thinking on opensource frameworks
 - **Sequential MCP**: Auto-activated for complex multi-step improvement analysis and planning
 - **Context7 MCP**: Framework-specific best practices and optimization patterns
 - **Persona Coordination**: Architect (structure), Performance (speed), Quality (maintainability), Security (safety)
