@@ -71,6 +71,12 @@ class MCPComponent(Component):
                 "config_file": "morphllm.json",
                 "requires_api_key": True,
                 "api_key_env": "MORPH_API_KEY"
+            },
+            "deepwiki": {
+                "name": "deepwiki",
+                "description": "Deep knowledge exploration and structured information retrieval",
+                "config_file": "deepwiki.json",
+                "requires_api_key": False
             }
         }
         
